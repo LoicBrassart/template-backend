@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint \"./**/*.js\" --fix .",
-    "prettify": "prettier --write ."
+    "prettify": "prettier --write .",
+    "dev": "nodemon index.js"
   },
   "eslintConfig": {
     "extends": "airbnb-base",
@@ -28,7 +29,8 @@
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
-    "mysql2": "^2.2.5"
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
